@@ -316,9 +316,9 @@ extern loff_t board_env_size;
 #define CONFIG_CMD_DHCP
 #define CONFIG_MII
 #define CONFIG_CMD_MII
-#define CONFIG_IPADDR		192.168.1.1
+#define CONFIG_IPADDR		192.168.168.1
 #define CONFIG_NETMASK		255.255.255.0
-#define CONFIG_SERVERIP		192.168.1.2
+#define CONFIG_SERVERIP		192.168.168.2
 #define CONFIG_CMD_TFTPPUT
 #define CONFIG_IPQ_MDIO			1
 
