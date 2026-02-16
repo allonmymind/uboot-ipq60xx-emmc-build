@@ -161,7 +161,7 @@ void check_button_is_press(void)
 			led_off("power_led");
 			led_on("blink_led");
 			printf("\n");
-			run_command("httpd 192.168.1.1", 0);
+			run_command("httpd 192.168.168.1", 0);
 			cli_loop();
 			break;
 		}
